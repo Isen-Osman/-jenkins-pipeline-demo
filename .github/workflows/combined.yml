@@ -45,4 +45,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/nginx-demo:latesty
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/nginx-demo:latest
