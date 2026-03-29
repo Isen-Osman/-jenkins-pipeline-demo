@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-        IMAGE_NAME = 'your-dockerhub-username/nginx-demo'
+        IMAGE_NAME = 'isenosman/nginx-demo'
     }
     stages {
         stage('Clone repository') {
